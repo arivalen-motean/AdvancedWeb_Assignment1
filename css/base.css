@@ -1,0 +1,38 @@
+:root{
+    --light-grey: rgb(167,169,172);
+    --sea-blue: rgb(0,125,190);
+    --dark-blue: rgb(0,88,138);
+    --lightest-blue: rgb(84,198,211);
+    --light-blue: rgb(0,183,199);
+    --blue-green: rgb(0,171,189);
+    --dark-grey: rgb(99,100,102);
+    --black: rgb(35,31,32);
+    --light-white: #eee;
+    --white: white;
+    --border:.1rem solid var(--black);
+    --box-shadow:1rem 1rem 1rem rgba(0,0,0,.1);
+    --text-shadow:0 1.5rem 3rem rgba(0,0,0,.3);
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'optimanormal';
+    src: url('optima-webfont.woff2') format('woff2'),
+         url('optima-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+ 
+ }
+
+ *{
+    font-family: 'optimanormal', century-gothic;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+ }
