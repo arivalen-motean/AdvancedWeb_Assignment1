@@ -478,9 +478,23 @@ section{
    margin-top: 1rem;
 }
 
+.book-heading{
+   background-size: cover !important;
+   background-position: center !important;
+   padding-top: 10rem;
+   padding-bottom:15rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 400px;
+}
+
+.booking .heading-title{
+   color: var(--dark-blue);
+}
 .booking .book-form{
    padding:2rem;
-   background: var(--light-bg);
+   background: var(--light-white);
 }
 
 .booking .book-form .flex{
@@ -491,20 +505,21 @@ section{
 
 .booking .book-form .flex .inputBox{
    flex:1 1 41rem;
+   text-transform: capitalize;
 }
 
 .booking .book-form .flex .inputBox input{
    width: 100%;
    padding:1.2rem 1.4rem;
    font-size: 1.6rem;
-   color:var(--light-black);
+   color:var(--dark-blue);
    text-transform: none;
    margin-top: 1.5rem;
    border:var(--border);
 }
 
 .booking .book-form .flex .inputBox input:focus{
-   background: var(--black);
+   background: var(--light-blue);
    color:var(--white);
 }
 
@@ -519,6 +534,7 @@ section{
 
 .booking .book-form .btn{
    margin-top: 2rem;
+   justify-content: center;
 }
 
 
