@@ -143,17 +143,17 @@ section{
 .home .slide .content span{
    display: block;
    font-size: 5rem;
-   color: var(--white);
+   color: var(--dark-blue);
    padding-bottom: 1rem;
    animation:fadeIn .2s linear backwards .2s;
 }
 
 .home .slide .content h3{
-   font-size: 6rem;
-   color:var(--dark-blue);
+   font-size: 3rem;
+   color:var(--light-grey);
    text-transform: capitalize;
    line-height: 1.2;
-   text-shadow: var(--text-shadow);
+   text-shadow: var(--box-shadow);
    padding:1rem 0;
    animation:fadeIn .2s linear backwards .4s;
 }
@@ -319,6 +319,55 @@ section{
 .packages .box-container .box:nth-child(5),
 .packages .box-container .box:nth-child(6){
    display: inline-block;
+}
+
+.sponsors .box-container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+   gap: 1.5rem;
+}
+
+.sponsors .heading-title{
+   color: var(--dark-blue);
+}
+
+.sponsors .box-container > .box{
+   padding:3rem 2rem;
+   text-align: center;
+   cursor: pointer;
+}
+
+.sponsors .box-container .box:nth-child(1):hover{ 
+   background: #d4af37;
+   border-radius: 15px;
+}
+
+.sponsors .box-container .box:nth-child(2):hover{ 
+   background: silver;
+   border-radius: 15px;
+}
+
+.sponsors .box-container .box:nth-child(3):hover{ 
+   background: burlywood;
+   border-radius: 15px;
+}
+
+.sponsors .box-container > .box img{
+   height: 15rem;
+}
+
+.sponsors .box-container > .box h3{
+   color:var(--white);
+   font-size: 3rem;
+   padding-top: 1rem;
+   padding-bottom: 2rem;
+}
+
+.sponsors .box-container > .box h2{
+   color:var(--dark-blue);
+   font-size: 2rem;
+   padding-top: 1rem;
+   padding-bottom: 2rem;
 }
 
 .home-offer{
